@@ -5,7 +5,7 @@ def find_even_values(array_of_arrays)
   while count < array_of_arrays[count] do
     
     p array_of_arrays[count]
-    count += 1
+    count += 2
   end
   
   # Given an Array of Arrays of Integers ( [ [10, 11], [99, 50, 3, 4], [23, 41] ] ):
