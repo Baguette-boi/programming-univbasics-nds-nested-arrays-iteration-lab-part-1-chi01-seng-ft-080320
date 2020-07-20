@@ -1,10 +1,10 @@
-def find_even_values(array_of_arrays)
+def find_even_values(src)
   
   count = 0
   
-  while count < array_of_arrays[count] do
+  while count < src[count] do
     
-    p array_of_arrays[count]
+    p src[count]
     count += 2
   end
   
